@@ -1,0 +1,52 @@
+{
+  "name": "trustcase-mcp",
+  "version": "0.1.1",
+  "description": "Read-only MCP server to search Trustcase AI agent use cases",
+  "type": "module",
+  "bin": {
+    "trustcase-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node test/e2e.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://trustcase.dev/mcp",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "trustcase",
+    "agent-safety",
+    "ai-safety",
+    "trust-score",
+    "human-in-the-loop"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "mcpName": "io.github.scottshapiro142/trustcase-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottshapiro142/trustcase-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scottshapiro142/trustcase-mcp/issues"
+  }
+}

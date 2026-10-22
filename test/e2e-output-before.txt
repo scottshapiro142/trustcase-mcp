@@ -1,0 +1,52 @@
+[stdio] tools: search_use_cases, get_use_case
+[stdio] search_use_cases('ebay listing'):
+1. Stale listing refresh (trust 85/100, Ecommerce and resale)
+   Finds listings that are not selling and suggests fixes.
+   slug: stale-listing-refresh
+   https://trustcase.dev/use-cases/stale-listing-refresh
+2. Listing inquiry responder (trust 81/100, Sales)
+   Answers buyer questions about property listings within a minute, any time of day. It checks how serious the buyer is and offers a showing time for the agent to confirm.
+   slug: listing-inquiry-responder
+   https://trustcase.dev/use-cases/listing-inquiry-responder
+3. Apartment listing scout (trust 81/100, Personal)
+   Checks rental sites for new listings that fit what you want and sends you only the good matches. Helps you see places before everyone else applies.
+   slug: apartment-listing-scout
+   https://trustcase.dev/use-cases/apartment-listing-scout
+
+Source: Trustcase, https://trustcase.dev
+[stdio] get_use_case('stale-listing-refresh') first lines:
+# Stale listing refresh
+Finds listings that are not selling and suggests fixes.
+
+Trust score: 85/100 (Ecommerce and resale)
+- Access: 24/30. Writes drafts and notes inside your tools, nothing leaves on its own.
+- Human approval: 27/30. Waits for a yes on: changing live prices.
+   ...
+Full page: https://trustcase.dev/use-cases/stale-listing-refresh
+[stdio] PASS
+[http] tools: search_use_cases, get_use_case
+[http] search_use_cases('ebay listing'):
+1. Stale listing refresh (trust 85/100, Ecommerce and resale)
+   Finds listings that are not selling and suggests fixes.
+   slug: stale-listing-refresh
+   https://trustcase.dev/use-cases/stale-listing-refresh
+2. Listing inquiry responder (trust 81/100, Sales)
+   Answers buyer questions about property listings within a minute, any time of day. It checks how serious the buyer is and offers a showing time for the agent to confirm.
+   slug: listing-inquiry-responder
+   https://trustcase.dev/use-cases/listing-inquiry-responder
+3. Apartment listing scout (trust 81/100, Personal)
+   Checks rental sites for new listings that fit what you want and sends you only the good matches. Helps you see places before everyone else applies.
+   slug: apartment-listing-scout
+   https://trustcase.dev/use-cases/apartment-listing-scout
+
+Source: Trustcase, https://trustcase.dev
+[http] get_use_case('stale-listing-refresh') first lines:
+# Stale listing refresh
+Finds listings that are not selling and suggests fixes.
+
+Trust score: 85/100 (Ecommerce and resale)
+- Access: 24/30. Writes drafts and notes inside your tools, nothing leaves on its own.
+- Human approval: 27/30. Waits for a yes on: changing live prices.
+   ...
+Full page: https://trustcase.dev/use-cases/stale-listing-refresh
+[http] PASS

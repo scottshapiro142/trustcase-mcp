@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.scottshapiro142/trustcase-mcp",
+  "title": "Trustcase",
+  "description": "Is it safe to let an AI agent do this? 97 agent use cases with 0-100 trust scores and setup prompts.",
+  "repository": {
+    "url": "https://github.com/scottshapiro142/trustcase-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://trustcase.dev/mcp",
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "trustcase-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

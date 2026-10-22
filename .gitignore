@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+gallery
+preview
+feed.json
+.env
+.env.*
+*.tgz
+product-hunt.md
+supporters.md
+listings.md
+seo-plan.md
+private/

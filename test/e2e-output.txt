@@ -1,0 +1,52 @@
+[stdio] tools: search_use_cases, get_use_case
+[stdio] search_use_cases('ebay listing'):
+1. Stale listing refresh (trust 85/100, Ecommerce and resale)
+   Finds listings that are not selling and suggests fixes.
+   slug: stale-listing-refresh
+   https://trustcase.dev/use-cases/stale-listing-refresh
+2. Listing writer (trust 78/100, Ecommerce and resale)
+   Writes marketplace listings from your photos and a model number.
+   slug: listing-writer
+   https://trustcase.dev/use-cases/listing-writer
+3. Cross listing helper (trust 82/100, Ecommerce and resale)
+   Gets one item ready for several marketplaces at once.
+   slug: cross-listing-helper
+   https://trustcase.dev/use-cases/cross-listing-helper
+
+Source: Trustcase, https://trustcase.dev
+[stdio] get_use_case('stale-listing-refresh') first lines:
+# Stale listing refresh
+Finds listings that are not selling and suggests fixes.
+
+Trust score: 85/100 (Ecommerce and resale)
+- Access: 24/30. Writes drafts and notes inside your tools, nothing leaves on its own.
+- Human approval: 27/30. Waits for a yes on: changing live prices.
+   ...
+Full page: https://trustcase.dev/use-cases/stale-listing-refresh
+[stdio] PASS
+[http] tools: search_use_cases, get_use_case
+[http] search_use_cases('ebay listing'):
+1. Stale listing refresh (trust 85/100, Ecommerce and resale)
+   Finds listings that are not selling and suggests fixes.
+   slug: stale-listing-refresh
+   https://trustcase.dev/use-cases/stale-listing-refresh
+2. Listing writer (trust 78/100, Ecommerce and resale)
+   Writes marketplace listings from your photos and a model number.
+   slug: listing-writer
+   https://trustcase.dev/use-cases/listing-writer
+3. Cross listing helper (trust 82/100, Ecommerce and resale)
+   Gets one item ready for several marketplaces at once.
+   slug: cross-listing-helper
+   https://trustcase.dev/use-cases/cross-listing-helper
+
+Source: Trustcase, https://trustcase.dev
+[http] get_use_case('stale-listing-refresh') first lines:
+# Stale listing refresh
+Finds listings that are not selling and suggests fixes.
+
+Trust score: 85/100 (Ecommerce and resale)
+- Access: 24/30. Writes drafts and notes inside your tools, nothing leaves on its own.
+- Human approval: 27/30. Waits for a yes on: changing live prices.
+   ...
+Full page: https://trustcase.dev/use-cases/stale-listing-refresh
+[http] PASS
